@@ -1,0 +1,62 @@
+/**
+ * Reduce font size in tables to reduce overall table size
+ */
+table {
+  font-size: 0.7em;
+}
+
+/* Delete Me after replacing all these occurrences */
+p.nb {
+    padding: 20px;
+    background-color: #e2eef8; /* background-color: #f7f7f7; */
+  }
+  
+  p.nb > b {
+    color: #e57222;
+  }
+  
+/** 
+ * Make screenshots looks nicer to workshop participants by: 
+ *   1. Reducing size to 80%
+ *   2. Adding a box shadow around them to stand out
+ */
+div#body-inner img {
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 16px 30px 7px rgba(0,0,0,0.56), 0 0 0 0 rgba(0, 0, 0, 0.3);
+    padding: 3px 5px;
+    margin: 18px 0 44px;
+    text-align: center;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**
+ * Hugo's learn theme screws up code formatting.
+ * 
+ * Fix this by 
+ *   1. reducing code font size and 
+ *   2. adding scroll bars along the x-axis (they're missing white-space directive)
+ */
+pre code {
+    font-size: 0.9em;
+    white-space: pre;
+}
+
+/** 
+ * Align all headings to the left (Hugo likes to center h3 titles alone)
+ */
+#chapter h3 {
+    text-align: left;
+}
+
+/**
+ * This fontin bold looks fugly. 
+ */
+h2, h3, h4 {
+    font-weight: 200;
+}
+
+body {
+    font-family: "Helvetica Nueve", Helvetica, "Segoe UI", Arial, sans-serif;
+}
