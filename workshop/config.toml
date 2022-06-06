@@ -1,0 +1,56 @@
+RelativeURLs=true
+CanonifyURLs=true
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Retail Analytics, Forecasting, & Personalization"
+theme = "learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+uglyurls = true
+sectionPagesMenu = "main"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+custom_css = ["/css/custom.css"]
+
+[params]
+  description = "Retail Analytics, Forecasting, & Personalization"
+  author = "sudoamit@"
+  disableBreadcrumb = false
+  disableNextPrev = false
+  themeVariant = "aws"
+  disableSearch = false
+  disableAssetsBusting = true
+  disableLanguageSwitchingButton = false
+  disableShortcutsTitle = true
+  disableInlineCopyToClipBoard = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+[privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[Languages]
+[Languages.en]
+title = "Retail Analytics, Forecasting, & Personalization"
+weight = 1
+languageName = "English"
+
+[Languages.fr]
+title = "Chez moi, mes amis"
+weight = 2
+languageName = "Français"
